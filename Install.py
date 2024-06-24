@@ -6,33 +6,60 @@ import ctypes
 from win32com.client import Dispatch
 
 # Путь к утилите busybox.exe
-busybox_path = "Utils\\busybox.exe"
+busybox_path = r"Utils\\busybox.exe"
 
-# URL для скачивания файла
-file_url = "https://github.com/scode18/Installers-for-HackerDesktop/releases/download/v1/Installers.7z"
+# URL для скачивания файла Installers.7z
+file_url_installers = "https://github.com/scode18/Installers-for-HackerDesktop/releases/download/v1/Installers.7z"
 
-# Команда для скачивания файла с помощью busybox.exe wget
-download_command = [busybox_path, "wget", file_url]
+# Команда для скачивания файла Installers.7z с помощью busybox.exe wget
+download_command_installers = [busybox_path, "wget", file_url_installers]
 
-# Выполнение команды скачивания
-subprocess.run(download_command, check=True)
+# Выполнение команды скачивания Installers.7z
+subprocess.run(download_command_installers, check=True)
 
-print("Файл успешно скачан с помощью busybox.exe wget.")
+print("Файл Installers.7z успешно скачан с помощью busybox.exe wget и будет распакован в папку Installers.")
 
 # Путь к утилите 7za.exe
-seven_zip_path = "Utils\\7za.exe"
+seven_zip_path = r"Utils\\7za.exe"
 
-# Путь к скачанному архиву
-archive_file = "Installers.7z"
+# Путь к скачанному архиву Installers.7z
+archive_file_installers = "Installers.7z"
 
-# Путь для распаковки
-extract_path = "."
+# Путь для распаковки архива Installers.7z
+extract_path_installers = "."
 
-# Команда для распаковки архива с помощью 7za.exe
-extract_command = [seven_zip_path, "x", archive_file, f"-o{extract_path}"]
+# Команда для распаковки архива Installers.7z с помощью 7za.exe
+extract_command_installers = [seven_zip_path, "x", archive_file_installers, f"-o{extract_path_installers}"]
 
-# Выполнение команды распаковки
-subprocess.run(extract_command, check=True)
+# Выполнение команды распаковки Installers.7z
+subprocess.run(extract_command_installers, check=True)
+
+print("Файл Installers.7z успешно распакован в папку Installers.")
+
+# URL для скачивания файла Archives.7z
+file_url_archives = "https://github.com/scode18/HackerDesktop/raw/main/Archives.7z"
+
+# Команда для скачивания файла Archives.7z с помощью busybox.exe wget
+download_command_archives = [busybox_path, "wget", file_url_archives]
+
+# Выполнение команды скачивания Archives.7z
+subprocess.run(download_command_archives, check=True)
+
+print("Файл Archives.7z успешно скачан с помощью busybox.exe wget и будет распакован в текущую директорию.")
+
+# Путь к скачанному архиву Archives.7z
+archive_file_archives = "Archives.7z"
+
+# Путь для распаковки архива Archives.7z (в текущую директорию)
+extract_path_archives = "."
+
+# Команда для распаковки архива Archives.7z с помощью 7za.exe
+extract_command_archives = [seven_zip_path, "x", archive_file_archives, f"-o{extract_path_archives}"]
+
+# Выполнение команды распаковки Archives.7z
+subprocess.run(extract_command_archives, check=True)
+
+print("Файл Archives.7z успешно распакован в текущую директорию.")
 
 # Пути для установки программ
 nexus_winstep_path = os.path.join(os.getcwd(), "Installers\\NexusSetup.exe")
