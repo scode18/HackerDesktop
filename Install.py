@@ -5,6 +5,35 @@ import subprocess
 import ctypes
 from win32com.client import Dispatch
 
+# Путь к утилите busybox.exe
+busybox_path = "Utils\\busybox.exe"
+
+# URL для скачивания файла
+file_url = "https://github.com/scode18/Installers-for-HackerDesktop/releases/download/v1/Installers.7z"
+
+# Команда для скачивания файла с помощью busybox.exe wget
+download_command = [busybox_path, "wget", file_url]
+
+# Выполнение команды скачивания
+subprocess.run(download_command, check=True)
+
+print("Файл успешно скачан с помощью busybox.exe wget.")
+
+# Путь к утилите 7za.exe
+seven_zip_path = "Utils\\7za.exe"
+
+# Путь к скачанному архиву
+archive_file = "Installers.7z"
+
+# Путь для распаковки
+extract_path = "."
+
+# Команда для распаковки архива с помощью 7za.exe
+extract_command = [seven_zip_path, "x", archive_file, f"-o{extract_path}"]
+
+# Выполнение команды распаковки
+subprocess.run(extract_command, check=True)
+
 # Пути для установки программ
 nexus_winstep_path = os.path.join(os.getcwd(), "Installers\\NexusSetup.exe")
 rainmeter_path = os.path.join(os.getcwd(), "Installers\\Rainmeter-4.5.18.exe")
@@ -21,7 +50,7 @@ rainmeter_user_dir = os.path.expanduser("~")
 rainmeter_dest = os.path.join(rainmeter_user_dir, "Documents", "Rainmeter")
 
 # Путь к 7za.exe
-sevenzip_path = os.path.join(os.getcwd(), "7za.exe")
+sevenzip_path = os.path.join(os.getcwd(), "Utils\\7za.exe")
 
 # Функция для тихой установки программ
 def install_program(file_path, silent_args):
@@ -84,7 +113,7 @@ if __name__ == "__main__":
 
     # Убедитесь, что 7za.exe находится в том же каталоге, где находится Python-файл
     if not os.path.exists(sevenzip_path):
-        print("Ошибка: 7za.exe не найден. Убедитесь, что он находится в том же каталоге, где находится Python-файл.")
+        print("Ошибка: 7za.exe не найден. Убедитесь, что он находится в каталоге Utils.")
         exit(1)
 
     # Перемещаем Wallpaper.png в корень диска C
