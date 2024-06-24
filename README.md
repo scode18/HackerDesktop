@@ -1,8 +1,9 @@
 # HackerDesktop
 HackerDesktop - кастомизация рабочего стола с помщью Winstep Nexus и Rainmeter
 
-## Поддержать автора
-[Boosty](https://boosty.to/scode18/donate)
+## [Поддержать автора](https://shre.su/F2FH)
+[Boosty](https://boosty.to/scode18/donate)<br>
+[Сокращенная ссылка на boosty через sharem](https://shre.su/F2FH)
 
 ## Post-Install
 
