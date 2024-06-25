@@ -7,6 +7,12 @@
 [Boosty](https://boosty.to/scode18/donate)<br>
 [Сокращенная ссылка на boosty через sharem](https://shre.su/F2FH)
 
+## Установка
+скачай файлы Install.py, finder.png, Trash Dark Full.png, Trash Dark.png, Wallpaper.png, Start Hacker Desktop.bat, Exit Hacker Desktop.bat и каталог Utils<br>
+запусти Install.py<br>
+скоро упрощу установку<br>
+в новой установке надо будет скачать файл Install.py и каталог Utils, либо готовый exe файл
+
 ## Post-Install
 
 ### [Nexus](https://shre.su/NXS5)
