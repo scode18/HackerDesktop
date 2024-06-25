@@ -8,11 +8,7 @@
 [Сокращенная ссылка на boosty через sharem](https://shre.su/F2FH)
 
 ## Установка
-скачай файлы Install.py, finder.png, Trash Dark Full.png, Trash Dark.png, Wallpaper.png, Start Hacker Desktop.bat, Exit Hacker Desktop.bat и каталог Utils<br>
-перемести файл finder.png, Trash Dark Full.png, Trash Dark.png в корень диска C<br>
-запусти Install.py<br>
-скоро упрощу установку<br>
-в новой установке надо будет скачать файл Install.py и каталог Utils, либо готовый exe файл
+#### скачай файл Install.py и каталог Utils, запусти Install.py
 
 ## Post-Install
 
