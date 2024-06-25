@@ -119,19 +119,19 @@ print("Файл Files.7z успешно распакован.")
 
 # print("Файл Archives.7z успешно скачан с помощью busybox.exe wget и будет распакован в текущую директорию.")
 
-# # Путь к скачанному архиву Archives.7z
-# archive_file_archives = "Archives.7z"
+# Путь к скачанному архиву Archives.7z
+archive_file_archives = "Archives.7z"
 
-# # Путь для распаковки архива Archives.7z (в текущую директорию)
-# extract_path_archives = "."
+# Путь для распаковки архива Archives.7z (в текущую директорию)
+extract_path_archives = "."
 
-# # Команда для распаковки архива Archives.7z с помощью 7za.exe
-# extract_command_archives = [seven_zip_path, "x", archive_file_archives, f"-o{extract_path_archives}"]
+# Команда для распаковки архива Archives.7z с помощью 7za.exe
+extract_command_archives = [seven_zip_path, "x", archive_file_archives, f"-o{extract_path_archives}"]
 
-# # Выполнение команды распаковки Archives.7z
-# subprocess.run(extract_command_archives, check=True)
+# Выполнение команды распаковки Archives.7z
+subprocess.run(extract_command_archives, check=True)
 
-# print("Файл Archives.7z успешно распакован в текущую директорию.")
+print("Файл Archives.7z успешно распакован в текущую директорию.")
 
 # Пути для установки программ
 nexus_winstep_path = os.path.join(os.getcwd(), "Installers\\NexusSetup.exe")
