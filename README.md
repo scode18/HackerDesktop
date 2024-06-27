@@ -1,5 +1,5 @@
-# HackerDesktop
-#### HackerDesktop - кастомизация рабочего стола с помщью Winstep Nexus и Rainmeter
+# [HackerDesktop](https://shre.su/JFEM)
+#### [HackerDesktop](https://shre.su/JFEM) - кастомизация рабочего стола с помщью Winstep Nexus и Rainmeter
 
 ![image](https://github.com/scode18/HackerDesktop/assets/98618381/73226682-6527-4ac7-90ed-f5160ffbd523)
 
@@ -7,10 +7,12 @@
 [Boosty](https://boosty.to/scode18/donate)<br>
 [Сокращенная ссылка на boosty через sharem](https://shre.su/F2FH)
 
-## Установка
-#### скачай файл Install.py и каталог Utils, запусти Install.py
+## [Установка](https://shre.su/JFEM)
+Запусти файл Install HackerDesktop Online или Install HackerDesktop Offline, если не установлен python - Setup Python.bat<br>
+Online HackerDesktop - мало весит, но установка занимает дольше чем Offline HackerDesktop<br>
+Offline HackerDesktop - весит побольше, но установка занимает очень мало времени<br>
 
-## Post-Install
+## [Post-Install](https://shre.su/JFEM)
 
 ### [Nexus](https://shre.su/NXS5)
 После установки нажми Ctrl+F11 или пкм по доку, NeXuS -> Настройки -> Дополнительно -> Возвратить и выбери файл любой из бэкапов, например HackerDesktop.wbk.
