@@ -11,6 +11,7 @@
 Запусти файл Install HackerDesktop Online или Install HackerDesktop Offline, если не установлен python - Setup Python.bat<br>
 Online HackerDesktop - мало весит, но установка занимает дольше чем Offline HackerDesktop<br>
 Offline HackerDesktop - весит побольше, но установка занимает очень мало времени<br>
+Либо запусти готовый exe файл
 
 ## [Post-Install](https://shre.su/JFEM)
 
