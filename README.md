@@ -5,7 +5,9 @@
 
 ## [Поддержать автора](https://shre.su/F2FH)
 [Boosty](https://boosty.to/scode18/donate)<br>
-[Сокращенная ссылка на boosty через sharem](https://shre.su/F2FH)
+[Сокращенная ссылка на boosty через sharem](https://shre.su/F2FH)<br>
+[Моя sharem рефералка](https://sharem.tech/r/user3e27791d)<br>
+[Моя сокращенная sharem рефералка](https://shre.su/MICD)
 
 ## [Установка](https://shre.su/JFEM)
 Запусти файл Install HackerDesktop Online или Install HackerDesktop Offline, если не установлен python - Setup Python.bat<br>
