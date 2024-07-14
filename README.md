@@ -9,7 +9,10 @@
 [Моя sharem рефералка](https://sharem.tech/r/user3e27791d)<br>
 [Моя сокращенная sharem рефералка](https://shre.su/MICD)
 
-## [Установка](https://shre.su/JFEM)
+## [Новая версия All Tweaker!!!](https://shre.su/0KO3) 
+[Новая версия All Tweaker!!!](https://shre.su/0KO3) 
+
+## [Установка HackerDesktop](https://shre.su/JFEM)
 Запусти файл Install HackerDesktop Online или Install HackerDesktop Offline, если не установлен python - Setup Python.bat<br>
 Online HackerDesktop - мало весит, но установка занимает дольше чем Offline HackerDesktop<br>
 Offline HackerDesktop - весит побольше, но установка занимает очень мало времени<br>
