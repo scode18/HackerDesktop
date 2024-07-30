@@ -224,6 +224,8 @@ if __name__ == "__main__":
     # Распаковываем Rainmeter.7z в папку Documents текущего пользователя
     extract_archive(rainmeter_archive, rainmeter_dest)
 
+    os.system("start catppuccin_1.4.1.rmskin")
+
     # Путь к изображению, которое нужно установить в качестве обоев
     image_path = r"C:\\Wallpaper.png"
 
